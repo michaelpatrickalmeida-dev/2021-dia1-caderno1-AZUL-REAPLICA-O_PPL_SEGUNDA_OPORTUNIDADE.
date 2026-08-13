@@ -79,8 +79,8 @@ def dividir_imagem_por_faixas(caminho_imagem, pasta_saida):
         print(f"Salvo: {caminho_completo} ({secao.width}x{secao.height}px)")
 
 if __name__ == "__main__":
-    caminho_imagem = "colunas_concatenadas_verticalmente.png"  # Atualize para sua imagem
-    pasta_saida = "questoes_divididas"                        # Atualize para a pasta de saída
+    caminho_imagem = "pagina_enem_31.png"  # Atualize para sua imagem
+    pasta_saida = "pg31"                        # Atualize para a pasta de saída
     
     dividir_imagem_por_faixas(caminho_imagem, pasta_saida)
     print("Divisão concluída!")
